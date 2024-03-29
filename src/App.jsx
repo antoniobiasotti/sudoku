@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './Header.jsx'
 import { Header } from './Header.jsx'
+import { Game } from './Game.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Game/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

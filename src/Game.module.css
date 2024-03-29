@@ -1,0 +1,12 @@
+.hbar {
+
+     width: 150px;
+
+     border: 1px solid;
+}
+
+.vbar {
+     height: 150px;
+     
+     border: 1px solid;
+}
